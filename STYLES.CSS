@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Menú de navegación */
+nav {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+/* Pseudo-clases */
+nav ul li a:hover {
+    background-color: #f39c12;
+    border-radius: 5px;
+}
+/* Imagen centrada */
+.imagen-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente si hay un alto definido */
+    text-align: center;
+    width: 100%;
+    margin: 50px 0;
+}
+.imagen-container img {
+    max-width: 90%; /* Se ajusta hasta un 90% del ancho de la pantalla */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}
+/* Pie de página */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}
